@@ -1,0 +1,110 @@
+body{
+	 background: url('images/ironThrone.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.container {
+    background: url('images/ironThrone.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+
+.thumbnail{
+	 background: url('images/ironThrone.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.row{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+}
+
+.row .thumbnail {
+    border:0;
+    box-shadow:0;
+    border-radius:0;
+}
+
+.jumbotron{
+	margin: 10px auto;
+	position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
+#himg{
+	font-family: 'Gothic Modern';
+	color: #ff0000;
+	opacity: .5;
+}
+
+#triv{
+	font-size: 2em;
+}
+
+.jumbo {
+  position: relative;
+  color: black;
+  z-index: 2;
+}
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
+}
+
+.col-sm-6 {
+  padding: 10px;
+}
+.pageMovement {
+  margin-top: 25px;
+}
+.answer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  font-weight: bold;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.progress {
+  margin-top: 25px;
+}
+#finishQuiz {
+  margin-top: 25px;
+}
+.output {
+  font-size:20px;
+}
+.glyphicon-ok-circle{
+  color:#00FF64;
+}
+.glyphicon-remove-circle{
+  color:#FF0004;
+}
+.selAnswer {
+  background: #4E9267;
+}
