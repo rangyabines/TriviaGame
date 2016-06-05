@@ -72,39 +72,51 @@ body{
 }
 
 .col-sm-6 {
-  padding: 10px;
+	padding: 10px;
 }
 .pageMovement {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 .answer {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 80%;
-  font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 80%;
+	font-weight: bold;
+}
+.container {
+	padding: 5px;
+
 }
 .hide {
-  display: none;
+	display: none;
 }
 .show {
-  display: block;
+	display: block;
 }
 .progress {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 #finishQuiz {
-  margin-top: 25px;
+	margin-top: 25px;
 }
 .output {
-  font-size:20px;
+	font-size:20px;
 }
 .glyphicon-ok-circle{
-  color:#00FF64;
+	color:#00FF64;
 }
 .glyphicon-remove-circle{
-  color:#FF0004;
+	color:#FF0004;
 }
 .selAnswer {
-  background: #4E9267;
+	background: #4E9267;
+}
+
+#show-number{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
 }
